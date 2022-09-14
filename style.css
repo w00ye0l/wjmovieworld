@@ -1,0 +1,94 @@
+@media (max-width: 992px) {
+    .movietable {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .moviecard {
+        display: none;
+    }
+}
+
+@media (max-width: 1350px) {
+    .lg-carousel {
+        display: none;
+    }
+}
+
+@media (min-width: 1350px) {
+    .sm-carousel {
+        display: none;
+    }
+}
+
+@media (max-width: 675px) {
+    .sm-carousel {
+        display: none;
+    }
+}
+
+.navbar-toggler-icon {
+    background-image: url("./images/menu.png") !important;
+}
+
+.logo {
+    height: 50px;
+}
+
+.card-a:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.movieimage {
+    background-image: url("./images/movie1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 17%;
+}
+
+.movieimage2 {
+    background-image: url("./images/movie2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 17%;
+}
+
+.movieimage3 {
+    background-image: url("./images/movie3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 17%;
+}
+
+.movieimage4 {
+    background-image: url("./images/movie4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 17%;
+}
+
+.movieimage5 {
+    background-image: url("./images/movie5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 17%;
+}
+
+.movieimage6 {
+    background-image: url("./images/movie6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 17%;
+}
+
+.bg-dark1 {
+    --bs-bg-opacity: 0.5;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgb(0, 0, 0)) !important;
+}
+
+.onhit:hover {
+    --bs-bg-opacity: 0.2;
+}
